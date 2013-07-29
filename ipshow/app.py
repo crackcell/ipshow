@@ -31,12 +31,9 @@ def create_app(conf_file, is_offline=False):
     return app
 
 def init_path(app):
-    pass
-    # index
     app.route('/ipshow/')(index)
     app.route('/ipshow/post')(post)
     app.route('/ipshow/show')(show)
-    #app.route('/show_all')(show_all)
 
 def index():
     return "hello"
