@@ -1,9 +1,0 @@
-<uwsgi>
-  <pythonpath>/home/a/ipshow</pythonpath>
-  <module>bootstrap</module>
-  <callable>app</callable>
-  <socket>/tmp/ipshow_uwsgi.sock</socket>
-  <master/>
-  <processes>2</processes>
-  <memory-report/>
-</uwsgi>
