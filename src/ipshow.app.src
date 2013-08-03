@@ -1,0 +1,12 @@
+{application, ipshow,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, [is_sup]},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { is_app, []}},
+  {env, []}
+ ]}.
